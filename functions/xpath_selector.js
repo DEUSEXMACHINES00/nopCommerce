@@ -1,3 +1,4 @@
+//XpathSelector
 import { Selector } from 'testcafe';
 
 const getElementsByXPath = Selector(xpath => {
