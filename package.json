@@ -1,0 +1,16 @@
+{
+    "name": "nomcommerce",
+    "version": "1.0.0",
+    "description": "Automation test cases about products and E2E shopping car",
+    "scripts": {
+        "testProduct": "testcafe chrome test/testAddProduct.js",
+        "testShoppingcar": "testcafe chrome test/testCarrito.js",
+        "testContinueShopping": "testcafe chrome test/testContinueShopping.js",
+        "test:allTest": "testcafe chrome test/"
+    },
+    "author": "Christian Puerta, Tomas Echeverry, Shirley Varon",
+    "license": "PJIC",
+    "dependencies": {
+        "testcafe": "^2.1.0"
+    }
+}
